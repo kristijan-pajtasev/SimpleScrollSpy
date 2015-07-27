@@ -1,7 +1,7 @@
 # SimpleScrollSpy
 Simple ScrollSpy example done with pure JavaScript and CS
 
-I notices that many people strugle with scroll spy. Lots of them try to 
+I noticed that many people strugle with scroll spy. Lots of them try to 
 use some existing plugin but in the end get more problems then benefit. 
 
 This very simple example probably could be done better, but it will fit 
