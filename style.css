@@ -1,0 +1,35 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	overflow-y: auto;
+	position: relative;
+} 
+body>nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	border-bottom: thin solid black;
+	background: white;
+}
+body>nav>span{
+	display: inline-block;
+}
+body>nav>span.active {
+	color: red;
+}
+body>div {
+	padding: 50px;
+	width: 100%;
+	height: 100%;
+}
